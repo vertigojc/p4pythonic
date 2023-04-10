@@ -1,0 +1,25 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "p4pythonic"
+version = "0.0.1"
+description = "A more Pythonic way to use the Helix Core P4Python API"
+readme = "README.md"
+authors = [
+    {name = "Jase Lindgren", email = "jclindgren@gmail.com"}
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["perforce", "helix core", "p4python"]
+dependencies = [
+   "p4python>=2021.1",
+]
+requires-python = ">=3.9"
